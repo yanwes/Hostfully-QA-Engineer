@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "baseUrl": "https://computer-database.gatling.io",
+    "target": "ES2017",
+    "lib": ["ESNext", "dom"],
+    "types": ["cypress", "node"],
+    "module": "NodeNext",
+    "paths": {
+      "@badeball/cypress-cucumber-preprocessor/*": ["./node_modules/@badeball/cypress-cucumber-preprocessor/dist/subpath-entrypoints/*"]
+    },
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "strict": true
+  },
+  "include": ["**/*.ts"]
+}
